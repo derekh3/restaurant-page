@@ -1,0 +1,48 @@
+:root {
+  --img-width: 200px;
+  --left-margin: 20px;
+  --light-blue: rgb(190, 226, 238);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  margin-left: var(--left-margin);
+}
+
+ul li {
+  margin: 0;
+  background-color: var(--light-blue);
+  padding: 10px;
+}
+
+.tab {
+  border: 2px solid blue;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.tab:hover {
+  filter: brightness(120%);
+}
+
+.content {
+  margin: 0px var(--left-margin);
+  padding: 0px 10px;
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid blue;
+}
+
+h1 {
+  color: red;
+}
+
+img {
+  width: var(--img-width);
+}

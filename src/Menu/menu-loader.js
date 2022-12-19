@@ -11,8 +11,8 @@ export default function loadMenuContent(contentDiv) {
   const Image1 = new Image();
   Image1.src = MenuImage;
 
-  text.textContent =
-    "Name: American Comfort\nAddress: 123 Main Street, Anytown, USA 12345\nPhone: 555-555-5555\nEmail: info@americancomfort.com";
+  text.innerHTML =
+    "$15 - Classic Burger: A juicy, all-beef patty topped with cheese, lettuce, tomato, and pickles, served on a toasted bun. <br><br>$11 - Grilled Cheese Sandwich: Melted cheese between two slices of toasted bread, served with a side of tomato soup for dipping.<br><br>$13 - Chicken and Waffles: Crispy fried chicken served over a warm, fluffy waffle, drizzled with maple syrup.<br><br>$16 - BBQ Ribs: Slow-cooked, fall-off-the-bone ribs coated in a tangy BBQ sauce.";
   content.appendChild(title);
   content.appendChild(Image1);
   content.appendChild(text);

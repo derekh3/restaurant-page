@@ -11,8 +11,8 @@ export default function loadContactContent(contentDiv) {
   const Image1 = new Image();
   Image1.src = ContactImage;
 
-  text.textContent =
-    "Name: American Comfort\nAddress: 123 Main Street, Anytown, USA 12345\nPhone: 555-555-5555\nEmail: info@americancomfort.com";
+  text.innerHTML =
+    "Name: American Comfort<br><br>Address: 123 Main Street, Anytown, USA 12345<br><br>Phone: 555-555-5555<br><br>Email: info@americancomfort.com";
   content.appendChild(title);
   content.appendChild(Image1);
   content.appendChild(text);

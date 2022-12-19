@@ -9,6 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
   gap: 30px;
   margin-left: var(--left-margin);
 }
@@ -30,8 +31,10 @@ ul li {
 }
 
 .content {
-  margin: 0px var(--left-margin);
-  padding: 0px 10px;
+  max-width: 800px;
+  /* margin: 0px var(--left-margin); */
+  margin: auto;
+  padding: 0px 30px;
   background-color: var(--light-blue);
   display: flex;
   flex-direction: column;
